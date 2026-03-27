@@ -285,19 +285,15 @@ section {
 }
 
 
-.avatar-placeholder {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #a78bfa);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: #fff;
-  letter-spacing: -0.02em;
+.avatar-photo {
+  width: 220px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
   flex-shrink: 0;
+  display: block;
 }
 
 /* ── Contact ── */
